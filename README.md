@@ -28,7 +28,7 @@ cd kitchen
 
 ## Deployment
 
-The website is deployed on Netli. You can view the live site [here](deployment URL).
+The website is deployed on Netli. You can view the live site [here](https://kitchen-project-code.netlify.app/).
 
 ## Contributing
 
