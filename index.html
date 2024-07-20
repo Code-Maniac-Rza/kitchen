@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kitchen</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"><img src="./images/logo (4).png" />Kitchen</div>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="hero">
+          <div class="hero-content">
+            <h1>Welcome to the Kitchen</h1>
+            <p>Enjoy the best dining experience with us!</p>
+            <a href="#contact" class="cta-button">Reserve a seat</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="content">
+          <h2>About Us</h2>
+          <p>
+            Discover the rich tapestry of flavors and experiences that make the
+            <b>Kitchen</b> unique. Founded in 2024 by renowned chef
+            <b>Joseph</b>, our establishment has grown from a small family-owned
+            bistro into a culinary landmark celebrated throughout the city. We
+            are passionate about delivering exquisite culinary experiences and
+            warm hospitality to our valued guests, blending traditional
+            techniques with innovative twists.
+          </p>
+          <p>
+            Our team, led by Chef <b>Joseph</b> and our dedicated staff, brings
+            together diverse culinary backgrounds and a shared commitment to
+            excellence. We source only the finest local and seasonal
+            ingredients, partnering with nearby farms and artisanal producers to
+            ensure each dish tells a story of <b>quality and sustainability</b>.
+            From our bustling kitchen to our inviting dining room, every aspect
+            of our restaurant is designed to create memorable moments for our
+            patrons.
+          </p>
+        </div>
+        <img
+          src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg"
+          alt="Restaurant Interior"
+        />
+      </section>
+
+      <section id="menu">
+        <h2>Our Menu</h2>
+        <p style="margin-bottom: 1rem">
+          Explore our diverse selection of culinary delights.
+        </p>
+        <div class="menu-items">
+          <div class="menu-category">
+            <h3>Appetizers</h3>
+            <ul>
+              <li>Classic Caesar Salad</li>
+              <li>Creamy Tomato Bisque</li>
+              <li>Crispy Calamari with Lemon Aioli</li>
+              <li>Bruschetta with Fresh Tomatoes and Basil</li>
+              <li>Spinach and Artichoke Dip</li>
+              <li>Charcuterie Board</li>
+            </ul>
+          </div>
+          <div class="menu-category">
+            <h3>Main Course</h3>
+            <ul>
+              <li>Grilled Ribeye Steak with Herb Butter</li>
+              <li>Fettuccine Alfredo with Grilled Chicken</li>
+              <li>Pan-Seared Salmon with Lemon Dill Sauce</li>
+              <li>Vegetarian Lasagna</li>
+              <li>Herb-Roasted Chicken with Root Vegetables</li>
+              <li>Shrimp Scampi Linguine</li>
+              <li>Mushroom Risotto</li>
+              <li>BBQ Pulled Pork Sandwich</li>
+            </ul>
+          </div>
+          <div class="menu-category">
+            <h3>Desserts</h3>
+            <ul>
+              <li>New York Cheesecake</li>
+              <li>Chocolate Lava Cake</li>
+              <li>Tiramisu</li>
+              <li>Crème Brûlée</li>
+              <li>Apple Pie à la Mode</li>
+              <li>Fresh Fruit Tart</li>
+            </ul>
+          </div>
+          <div class="menu-category">
+            <h3>Beverages</h3>
+            <ul>
+              <li>Freshly Brewed Coffee</li>
+              <li>Selection of Teas</li>
+              <li>House-made Lemonade</li>
+              <li>Fruit Smoothies</li>
+              <li>Craft Cocktails</li>
+              <li>Local and Imported Beers</li>
+              <li>Curated Wine List</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <p style="margin-bottom: 1rem">Check out our photos.</p>
+        <div class="gallery">
+          <img
+            src="https://images.pexels.com/photos/2116094/pexels-photo-2116094.jpeg"
+            alt="Delicious Dish 1"
+          />
+          <img
+            src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg"
+            alt="Delicious Dish 2"
+          />
+          <img
+            src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg"
+            alt="Restaurant Interior"
+          />
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p style="margin-bottom: 1rem">
+          Reach out to us for reservations or inquiries.
+        </p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <img
+          src="./images/logo (4).png"
+          alt="Restaurant Logo"
+          class="footer-logo"
+        />
+        <div class="social-links">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            aria-label="Facebook"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://x.com/" target="_blank" aria-label="Twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+        <p>&copy; 2024 Kitchen. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
