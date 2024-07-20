@@ -17,7 +17,7 @@ Kitchen is a responsive restaurant website built with HTML and CSS, designed to 
 ## Setup Instructions
 
 1. Clone the repository:
-git clone [repository URL]
+git clone [[repository URL]](https://github.com/Code-Maniac-Rza/kitchen.git)
 
 
 2. Navigate to the project directory:
@@ -28,7 +28,7 @@ cd kitchen
 
 ## Deployment
 
-The website is deployed on [Netlify/Vercel]. You can view the live site [here](deployment URL).
+The website is deployed on Netli. You can view the live site [here](deployment URL).
 
 ## Contributing
 
