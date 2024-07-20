@@ -10,6 +10,8 @@ Kitchen is a responsive restaurant website built with HTML and CSS, designed to 
  
 - Hero section with a welcome message
 
+
+
  <img width="949" alt="ss1" src="https://github.com/user-attachments/assets/7667f9a4-c232-4785-bd8e-92210b95793d">
  
 - About section with information about the restaurant
