@@ -17,7 +17,7 @@ Kitchen is a responsive restaurant website built with HTML and CSS, designed to 
 ## Setup Instructions
 
 1. Clone the repository:
-git clone [[repository URL]](https://github.com/Code-Maniac-Rza/kitchen.git)
+git clone https://github.com/Code-Maniac-Rza/kitchen.git
 
 
 2. Navigate to the project directory:
